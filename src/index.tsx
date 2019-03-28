@@ -1,8 +1,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
-
-import App from "./pages/App";
+import Router from './routes/Router';
 
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900');
@@ -27,7 +26,7 @@ const Root = () => (
   <ThemeProvider theme={Theme}>
     <div>
       <GlobalStyle />
-      <App />
+      <Router />
     </div>
   </ThemeProvider>
 );
