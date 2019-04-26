@@ -4,6 +4,6 @@
   "rules": {
     "quotemark": [true, "single", "jsx-double"],
     "trailing-comma": [true, {"multiline": "always", "singleline": "never"}],
-    "max-line-length": [true, 120],
+    "max-line-length": [true, 120]
   },
 }
